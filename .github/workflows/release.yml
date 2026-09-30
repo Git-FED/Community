@@ -1,0 +1,12 @@
+name: Release checklist
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/check-repo.mjs
+      - run: echo "Release artifacts require package-specific implementation and signing review."

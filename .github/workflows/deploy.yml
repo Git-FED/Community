@@ -1,0 +1,7 @@
+name: Deploy site
+on: {workflow_dispatch: null}
+jobs:
+  notice:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure the selected static host before enabling deployment."

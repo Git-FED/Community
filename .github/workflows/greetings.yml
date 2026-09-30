@@ -1,0 +1,7 @@
+name: Greetings
+on: [pull_request_target, issues]
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Welcome to FED-OS. Please read CONTRIBUTING.md."

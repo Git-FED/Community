@@ -1,0 +1,13 @@
+name: Static site check
+on:
+  workflow_dispatch:
+  push:
+    paths: [site/**, scripts/**]
+permissions:
+  contents: read
+jobs:
+  check-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: test -s site/index.html && test -s site/styles.css && test -s site/effects.js

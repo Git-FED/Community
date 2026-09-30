@@ -1,0 +1,7 @@
+name: Continuous delivery
+on: {workflow_dispatch: null}
+jobs:
+  notice:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deployment requires an explicitly configured host and secret manager."
