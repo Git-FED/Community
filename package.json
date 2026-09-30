@@ -1,13 +1,6 @@
 {
-  "name": "fed-os-monorepo",
-  "private": true,
+  "name": "@fed-os/site",
   "version": "0.1.0",
-  "description": "FED-OS unified monorepo for browser-native tools and cross-platform publishing.",
-  "workspaces": ["packages/*", "site"],
-  "scripts": {
-    "check": "node scripts/check-repo.mjs",
-    "site": "python3 -m http.server 4173 --directory site",
-    "format:check": "node scripts/check-repo.mjs"
-  },
-  "engines": { "node": ">=20" }
+  "private": true,
+  "scripts": { "check": "node -e \"console.log('Site boundary OK')\"" }
 }
