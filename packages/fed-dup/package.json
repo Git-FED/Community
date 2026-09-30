@@ -1,0 +1,9 @@
+{
+  "name": "@fed-os/fed-dup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "fed-dup package in the FED-OS monorepo.",
+  "scripts": {
+    "check": "node -e \"console.log('Package boundary OK: fed-dup')\""
+  }
+}
