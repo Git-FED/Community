@@ -1,0 +1,12 @@
+{
+  "name": "FED-OS",
+  "description": "Browser-native tools and cross-platform publishing.",
+  "packages": [
+    {"name":"FED-Shell","path":"packages/fed-shell","status":"experimental"},
+    {"name":"Fed-Poster","path":"packages/fed-poster","status":"scaffold"},
+    {"name":"FED-TTS","path":"packages/fed-tts","status":"scaffold"},
+    {"name":"FED-TEMPLE","path":"packages/fed-temple","status":"scaffold"},
+    {"name":"Surf-FED Browser","path":"packages/surf-fed-browser","status":"scaffold"},
+    {"name":"FED-Dup","path":"packages/fed-dup","status":"scaffold"}
+  ]
+}

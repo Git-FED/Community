@@ -1,0 +1,2 @@
+/* Canonical shared styles live in site/styles.css. This file is a compatibility pointer for starter-kit consumers. */
+@import url("/site/styles.css");

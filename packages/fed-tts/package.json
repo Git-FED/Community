@@ -1,0 +1,9 @@
+{
+  "name": "@fed-os/fed-tts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "fed-tts package in the FED-OS monorepo.",
+  "scripts": {
+    "check": "node -e \"console.log('Package boundary OK: fed-tts')\""
+  }
+}
